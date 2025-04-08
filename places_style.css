@@ -1,0 +1,160 @@
+/* Base Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #111;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #918450;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    height: 40px;
+}
+
+.login-button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main layout */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Title */
+main h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Place Details */
+.place-details {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.place-info p {
+    margin: 8px 0;
+}
+
+/* Reviews Section */
+#reviews {
+    margin: 20px 0;
+}
+
+#reviews h2 {
+    margin-bottom: 10px;
+}
+
+.review-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.review-card p {
+    margin: 6px 0;
+}
+
+/* Add Review Section */
+#add-review {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+#add-review h2 {
+    margin-bottom: 10px;
+}
+
+.add-review.form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+/* Submit button */
+button {
+    padding: 10px;
+    border: none;
+    background-color: #A41623;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #f85e00;
+}
+
+.place-info,
+.review-card,
+#add-review {
+    text-align: left;
+    padding: 10px 15px; /* un peu plus large pour un meilleur confort visuel */
+}
+
+.place-info p,
+.review-card p,
+#add-review label,
+#add-review textarea {
+    text-align: left;
+}
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
